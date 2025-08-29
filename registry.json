@@ -1,0 +1,72 @@
+{
+  "agents": [
+    {
+      "id": "smart-renamer",
+      "name": "Smart Renamer",
+      "version": "1.0.0",
+      "description": "Intelligently renames files in batches using configurable strategies",
+      "author": "Jasmine",
+      "permissions": ["filesystem:read", "filesystem:write"],
+      "download_url": "https://github.com/example/smart-renamer-agent/archive/refs/heads/main.zip",
+      "categories": ["file-management", "utilities"],
+      "dependencies": ["python-slugify", "pathlib"],
+      "created_at": "2024-01-15T10:00:00Z",
+      "updated_at": "2024-01-15T10:00:00Z"
+    },
+    {
+      "id": "csv-chart",
+      "name": "CSV Charter",
+      "version": "1.2.0",
+      "description": "Generates beautiful charts from CSV files with customizable options",
+      "author": "Jasmine",
+      "permissions": ["filesystem:read"],
+      "download_url": "https://github.com/example/csv-chart-agent/archive/refs/heads/main.zip",
+      "categories": ["data-visualization", "analytics"],
+      "dependencies": ["pandas", "matplotlib", "seaborn"],
+      "created_at": "2024-01-10T15:30:00Z",
+      "updated_at": "2024-02-01T09:15:00Z"
+    },
+    {
+      "id": "markdown-pdf",
+      "name": "Markdown to PDF",
+      "version": "1.0.0",
+      "description": "Converts Markdown documents to styled PDF reports",
+      "author": "Jasmine",
+      "permissions": ["filesystem:read", "filesystem:write"],
+      "download_url": "https://github.com/example/markdown-pdf-agent/archive/refs/heads/main.zip",
+      "categories": ["document-conversion", "productivity"],
+      "dependencies": ["markdown", "weasyprint", "jinja2"],
+      "created_at": "2024-01-20T14:20:00Z",
+      "updated_at": "2024-01-20T14:20:00Z"
+    },
+    {
+      "id": "web-fs-tester",
+      "name": "Web FS Tester",
+      "version": "2.0.0",
+      "description": "Advanced web automation and AI-powered analysis with filesystem integration",
+      "author": "Jasmine",
+      "permissions": ["network:read", "filesystem:read", "filesystem:write", "shell:execute"],
+      "download_url": "https://github.com/example/web-fs-tester-agent/archive/refs/heads/main.zip",
+      "categories": ["web-automation", "testing", "ai-analysis"],
+      "dependencies": ["playwright", "openai", "requests", "beautifulsoup4"],
+      "created_at": "2024-02-01T12:00:00Z",
+      "updated_at": "2024-02-15T16:45:00Z"
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "total_agents": 4,
+    "categories": [
+      "file-management",
+      "utilities", 
+      "data-visualization",
+      "analytics",
+      "document-conversion",
+      "productivity",
+      "web-automation",
+      "testing",
+      "ai-analysis"
+    ],
+    "last_updated": "2024-02-15T16:45:00Z"
+  }
+}
