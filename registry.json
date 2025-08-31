@@ -51,11 +51,24 @@
       "dependencies": ["playwright", "openai", "requests", "beautifulsoup4"],
       "created_at": "2024-02-01T12:00:00Z",
       "updated_at": "2024-02-15T16:45:00Z"
-    }
+    },
+    {
+        "id": "receipt-organizer",
+        "name": "Receipt & Expense Organizer",
+        "version": "1.0.0",
+        "description": "OCR-powered receipt and expense organizer with OpenAI integration for budgeting tools",
+        "author": "Rahul Rejeev",
+        "permissions": ["filesystem:read", "filesystem:write", "network:read"],
+        "download_url": "https://github.com/yourusername/receipt-organizer-agent/archive/refs/heads/main.zip",
+        "categories": ["data-processing", "financial-tools", "ocr", "automation"],
+        "dependencies": ["pytesseract", "pillow", "opencv-python", "python-dateutil", "openai"],
+        "created_at": "2024-08-29T00:00:00Z",
+        "updated_at": "2024-08-29T00:00:00Z"
+      }
   ],
   "metadata": {
     "version": "1.0",
-    "total_agents": 4,
+    "total_agents": 5,
     "categories": [
       "file-management",
       "utilities", 
@@ -65,7 +78,11 @@
       "productivity",
       "web-automation",
       "testing",
-      "ai-analysis"
+      "ai-analysis",
+     "data-processing",
+      "financial-tools",
+      "ocr",
+      "automation"
     ],
     "last_updated": "2024-02-15T16:45:00Z"
   }
