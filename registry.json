@@ -59,7 +59,7 @@
         "description": "OCR-powered receipt and expense organizer with OpenAI integration for budgeting tools",
         "author": "Rahul Rejeev",
         "permissions": ["filesystem:read", "filesystem:write", "network:read"],
-        "download_url": "https://github.com/yourusername/receipt-organizer-agent/archive/refs/heads/main.zip",
+        "download_url": "https://github.com/rahulrejeev/receipt-organizer-agent/archive/refs/heads/main.zip",
         "categories": ["data-processing", "financial-tools", "ocr", "automation"],
         "dependencies": ["pytesseract", "pillow", "opencv-python", "python-dateutil", "openai"],
         "created_at": "2024-08-29T00:00:00Z",
